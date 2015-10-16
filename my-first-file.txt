@@ -1,0 +1,13 @@
+Set-ScheduledJob : Cannot bind parameter 'ScheduledJobOption'. Cannot create object of type 
+"Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions". The StartIfOnBattery property was not found for the 
+Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions object. The available property is: [StartIfOnBatteries <System.Boolean>] , 
+[StopIfGoingOnBatteries <System.Boolean>] , [WakeToRun <System.Boolean>] , [StartIfNotIdle <System.Boolean>] , [StopIfGoingOffIdle 
+<System.Boolean>] , [RestartOnIdleResume <System.Boolean>] , [IdleDuration <System.TimeSpan>] , [IdleTimeout <System.TimeSpan>] , 
+[ShowInTaskScheduler <System.Boolean>] , [RunElevated <System.Boolean>] , [RunWithoutNetwork <System.Boolean>] , 
+[DoNotAllowDemandStart <System.Boolean>] , [MultipleInstancePolicy <Microsoft.PowerShell.ScheduledJob.TaskMultipleInstancePolicy>] , 
+[JobDefinition <Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition>]
+At A:\GitHub\RTCM\schedule_RTCM_jobs.ps1:12 char:38
++ ...         -ScheduledJobOption @{WakeToRun=$true;StartIfOnBattery=$true}
++                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-ScheduledJob], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.ScheduledJob.SetScheduledJobCommand
