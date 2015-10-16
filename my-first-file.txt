@@ -1,6 +1,7 @@
 Set-ScheduledJob : Cannot bind parameter 'ScheduledJobOption'. Cannot create object of type 
 "Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions". The StartIfOnBattery property was not found for the 
 Microsoft.PowerShell.ScheduledJob.ScheduledJobOptions object. The available property is: [StartIfOnBatteries <System.Boolean>] , 
+*** First change ***
 [StopIfGoingOnBatteries <System.Boolean>] , [WakeToRun <System.Boolean>] , [StartIfNotIdle <System.Boolean>] , [StopIfGoingOffIdle 
 <System.Boolean>] , [RestartOnIdleResume <System.Boolean>] , [IdleDuration <System.TimeSpan>] , [IdleTimeout <System.TimeSpan>] , 
 [ShowInTaskScheduler <System.Boolean>] , [RunElevated <System.Boolean>] , [RunWithoutNetwork <System.Boolean>] , 
